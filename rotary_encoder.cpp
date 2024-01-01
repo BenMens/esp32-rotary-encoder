@@ -110,13 +110,13 @@ void RotaryEncoder::sampleEncoder()
         case 2:
         case 4:
         case 11:
-            this->pulseCount++;
+            this->pulseCount--;
             break;
         case 14:
         case 8:
         case 1:
         case 7:
-            this->pulseCount--;
+            this->pulseCount++;
             break;
     }
 
